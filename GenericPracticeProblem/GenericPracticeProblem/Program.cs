@@ -9,19 +9,25 @@ namespace GenericPracticeProblem
     class Program
     {
         /// <summary>
-        /// Generics the specified array.
+        /// Using Generic class 
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        /// <param name="array">The array.</param>
-        public static void Generic<T>(T[] array)
+        public class PrintArray<T>
         {
-            foreach(T item in array)
+            private T[] array;
+            public PrintArray(T[] array)//Creating an Constructor
             {
-                Console.WriteLine(item);
+                this.array = array;
             }
-            Console.WriteLine("-------------------------");
+            public void Generic()
+            {
+                foreach (var item in array)
+                {
+                    Console.WriteLine(item);
+                }
+                Console.WriteLine("-------------------------");
+            }
         }
-
         
         static void Main(string[] args)
         {
@@ -33,14 +39,11 @@ namespace GenericPracticeProblem
             char[] charArray = { 'H', 'E', 'L', 'L', 'O' };
 
             //Calling Methods in Main Mehtod
-            Program.Generic(intArray);
-            Program.Generic(doubleArray);
-            Program.Generic(charArray);
+           new PrintArray<int>(intArray).Generic();
+           new PrintArray<double>(doubleArray).Generic();
+            new PrintArray<char>(charArray).Generic();
 
             Console.ReadLine();
-
-
-
         }
     }
 }
