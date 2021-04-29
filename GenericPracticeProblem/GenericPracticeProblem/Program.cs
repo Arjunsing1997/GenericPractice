@@ -8,32 +8,21 @@ namespace GenericPracticeProblem
 {
     class Program
     {
-        public static void IntegerArray(int[] array)
+        /// <summary>
+        /// Generics the specified array.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="array">The array.</param>
+        public static void Generic<T>(T[] array)
         {
-            foreach(int item in array)
+            foreach(T item in array)
             {
                 Console.WriteLine(item);
             }
             Console.WriteLine("-------------------------");
         }
 
-        public static void DoubleArray(double[] array)
-        {
-            foreach (double item in array)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine("-------------------------");
-        }
-
-        public static void CharArray(char[] array)
-        {
-            foreach (char item in array)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine("-------------------------");
-        }
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to ----------GENERIC PROBLEMS-----------------");
@@ -44,9 +33,9 @@ namespace GenericPracticeProblem
             char[] charArray = { 'H', 'E', 'L', 'L', 'O' };
 
             //Calling Methods in Main Mehtod
-            Program.IntegerArray(intArray);
-            Program.DoubleArray(doubleArray);
-            Program.CharArray(charArray);
+            Program.Generic(intArray);
+            Program.Generic(doubleArray);
+            Program.Generic(charArray);
 
             Console.ReadLine();
 
