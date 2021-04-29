@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericPracticeProblem
 {
-    class Program
+   public class Program
     {
         /// <summary>
         /// Using Generic class 
