@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\bin\Debug\GenericPracticeProblem.exe.config
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\bin\Debug\GenericPracticeProblem.exe
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\bin\Debug\GenericPracticeProblem.pdb
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\obj\Debug\GenericPracticeProblem.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\obj\Debug\GenericPracticeProblem.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\obj\Debug\GenericPracticeProblem.exe
+C:\Users\HP\source\repos\GenericPractice\GenericPracticeProblem\GenericPracticeProblem\obj\Debug\GenericPracticeProblem.pdb
