@@ -8,15 +8,16 @@ namespace ManIntegerNumberTest
     public class UnitTest1
     {
         [TestMethod]
-        public void MaxIntegerNumber()
+        public void MaxDoubleNumber()
         {
             Program p = new Program();
-            int actual = p.MaxIntNumber(10, 9, 4);
+            double actual = p.MaxDoubleNumber(10.6, 10.0, 14.6);
 
-            int Exp = 10;
+            double Exp = 14.6;
 
             Assert.AreEqual(actual, Exp);
 
         }
     }
+
 }
